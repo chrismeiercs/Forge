@@ -1,6 +1,6 @@
 section .multiboot_header
 header_start:
-	dd 0x85250d6	; magic number (multiboot2)
+	dd 0xe85250d6	; magic number (multiboot2)
 	dd 0		; specifies architecture (i386 protecyted mode)
 	dd header_end - header_start	; header length
 	; checksum
